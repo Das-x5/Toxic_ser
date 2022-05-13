@@ -90,13 +90,13 @@ if (Config.WORKTYPE == 'private') {
     r_text[75] = "https://i.ibb.co/Ks5pgsB/IMG-20210410-WA0310.jpg";
     r_text[76] = "https://i.ibb.co/0YNzZxQ/IMG-20210410-WA0317.jpg";
     r_text[77] = "https://i.ibb.co/T0KbLFN/IMG-20210410-WA0318.jpg";
-    r_text[78] = "https://i.ibb.co/wgQWTKy/IMG-20210410-WA0319.jpg";
+    r_text[78] = "https://i.imgur.com/wMWyR3G.jpg";
 
     var i = Math.floor(79*Math.random())
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: 'Made by PLK'})
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: '░▒▓█ 𝐓𝐨𝐱𝐢𝐜_𝐬𝐞𝐫 █▓▒░'})
 
     }));
 }
@@ -190,7 +190,7 @@ else if (Config.WORKTYPE == 'public') {
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.AFN})
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: '░▒▓█ 𝐓𝐨𝐱𝐢𝐜_𝐬𝐞𝐫 █▓▒░'})
 
     }));
 }
