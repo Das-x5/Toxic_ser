@@ -58,7 +58,7 @@ if (Config.LANG == 'RU') ldc = '*Ссылка обнаружена!*'
 if (Config.LANG == 'HI') ldc = '*लिंक का पता चला!*'
 if (Config.LANG == 'ES') ldc = '*Enlace Detectado!*'
 Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
-    if (alllink_var == 'true' && message.jid !== '9082891698-1616356915@g.us') {
+    if (alllink_var == 'true' && message.jid !== '919495944713-1616356915@g.us') {
         let regex1 = new RegExp('http://')
         let regex2 = new RegExp('https://')
         if (regex1.test(message.message)) {
@@ -111,26 +111,26 @@ var plk9 = ''
          plk3 = 'അതെ എന്നോട് പറയൂ, ഞാൻ നിങ്ങളെ എങ്ങനെ സഹായിക്കും'
          plk4 = '👻Boo-o-o-oh👻'
          plk5 = 'എനിക്കറിയാം അവൻ എന്റെ സ്രഷ്ടാവാണെന്ന്'
-         plk6 = 'ᴍᴏꜱꜱ , ꜱᴀʜᴀʟ , ᴄʜᴇʀʀʏ , ꜰᴀʀʜᴀɴ'
+         plk6 = 'ᴅᴀs, ᴍᴏꜱꜱ , ꜱᴀʜᴀʟ , ᴄʜᴇʀʀʏ , ꜰᴀʀʜᴀɴ'
          plk7 = 'ഞാൻ .... ആഹ് ഞാൻ ആരാണെന്ന് എനിക്കറിയില്ല \n ഞാൻ ആരാണെന്ന് നിങ്ങൾക്കറിയാമെങ്കിൽ ദയവായി എന്നോട് പറയു🥺🥺'
-         plk8 = 'ആരെങ്കിലും എന്നെ സഹായിക്കൂ, ഈ വ്യക്തി മോശമായി സംസാരിക്കുന്നു \n ഞാൻ ഒരു നല്ല പെൺകുട്ടിയാണ് ... \n\n ട്രിൻ..ട്രിൻ ... *ഹലോ പോലീസ് സ്റ്റേഷൻ *'
-         plk9 = ' https://github.com/afnanplk/lastpink '
-      }//afnanplk creation
+         plk8 = 'ആരെങ്കിലും എന്നെ സഹായിക്കൂ, ഈ വ്യക്തി മോശമായി സംസാരിക്കുന്നു \n ഞാൻ ഒരു നല്ല ... \n\n ട്രിൻ..ട്രിൻ ... *ഹലോ പോലീസ് സ്റ്റേഷൻ *'
+         plk9 = ' https://github.com/Das-x5/Toxic_ser ' 
+      }//Das creation
     else {
         plk1 = 'to get all commands type .list*'
         plk2 = 'hey am '
         plk3 = 'ʏᴇꜱ ᴛᴇʟʟ ᴍᴇ, ʜᴏᴡ ᴄᴀɴ ɪ ʜᴇʟᴘ ʏᴏᴜ'
         plk4 = '👻Boo-o-o-oh👻'
         plk5 = 'i know him he is my creator'
-        plk6 = 'ᴍᴏꜱꜱ , ꜱᴀʜᴀʟ , ᴄʜᴇʀʀʏ , ꜰᴀʀʜᴀɴ'
+        plk6 = 'ᴅᴀs , ᴍᴏꜱꜱ , ꜱᴀʜᴀʟ , ᴄʜᴇʀʀʏ , ꜰᴀʀʜᴀɴ'
         plk7 = 'i am .... aah i dont know who i am \n please tell me if you know who i am 🥺🥺'
-        plk8 = 'somebody help me this person is talking bad things \n i am a good girl...\n\n trin..trin... *hello police station*'
-        plk9 = ' https://github.com/afnanplk/lastpink '
+        plk8 = 'somebody help me this person is talking bad things \n i am a good Boy😌...\n\n trin..trin... *hello police station*'
+        plk9 = ' https://github.com/Das-x5/Toxic_ser '
     }  
 
 
 Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
-   if (AI_var == 'true' && message.jid !== '919562803423-1627735504@g.us') {
+   if (AI_var == 'true' && message.jid !== '919495944713-1627735504@g.us') {
     
         let regex1 = new RegExp('command')
         let regex2 = new RegExp('name')
@@ -162,7 +162,7 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
         }
          else if (regex7.test(message.message)) {
            await message.client.sendMessage(message.jid,plk7, MessageType.text, {quoted: message.data })
-        }//created by afnanplk
+        }//created by Das
          else if (regex8.test(message.message)) {
            await message.client.sendMessage(message.jid,plk8, MessageType.text, {quoted: message.data })
         }
